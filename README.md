@@ -44,8 +44,16 @@ To set up the project locally, follow these steps:
     ```bash
     npm start
     npm run dev
-    
 
+## Contributing
+
+We welcome contributions to enhance the project. To contribute, please fork the repository, create a new branch for your feature or bug fix, and submit a pull request.
+
+Fork the repository.
+Create a new branch (git checkout -b feature/YourFeatureName).
+Commit your changes (git commit -m 'Add some feature').
+Push to the branch (git push origin feature/YourFeatureName).
+Open a pull request.
 
 
  
