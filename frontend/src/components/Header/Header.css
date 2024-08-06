@@ -1,0 +1,111 @@
+.header{
+    height: 34vw;
+    margin: 30px auto;
+    background: url('/header_img2.png') no-repeat;
+    background-size: contain;
+    position: relative;
+    margin-top: 100px;
+}
+.header-contents{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    max-width: 52%;
+    bottom: 22%;
+    left: 25%;
+    animation: fadeIn 3s;
+ 
+}
+
+.header-contents h2{ 
+    align-items: center;
+    font-weight:900;
+    color: rgb(249, 241, 230);
+    font-size: max(4vw, 16px);
+   
+
+}
+
+.header-contents p{ 
+    align-items: center;
+    font-weight: 600;
+    color: rgb(249, 241, 230);
+    font-size: 1.3vw;
+
+}
+
+/* .header-contents button{ 
+    
+    border: now;
+    color: #1d1d1d;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: rgb(244, 232, 232);
+    font-size: max(1vw, 11px);
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: 0.503s;
+
+  
+}
+.header-contents button:hover{
+    background-color: #f0f0f0;
+    color: #131212;
+} */
+
+.header-contents button{
+
+    border: now;
+    /* color: #f5ce10; */
+    color: #1d1d1d;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    /* background-color:#101010 ; */
+    background-color: rgb(244, 241, 232);
+    font-size: max(1vw, 11px);
+    border-radius: 50px;
+    /* border: 2px #f5ce10; */
+    /* border-color: rgb(8, 8, 8); */
+    border-color: rgb(247, 249, 243);
+    
+    cursor: pointer;
+    transition: 0.503s; 
+    
+}
+
+.header-contents button:hover {
+    background-color: #101010;
+    /* background-color: rgb(244, 232, 232); */
+     color: #f5ce10;
+     /* color: #1d1d1d; */
+}
+
+
+
+
+@media (max-width:1050px) {
+   /* .header{
+    height: 38vw;
+   } */
+   .header-contents{
+    max-width: 55%;
+   }
+    
+}
+
+@media (max-width:750px) {
+    
+    .header-contents{
+     max-width: 65%;
+    }
+    .header-contents p{
+        display: none;
+       }
+       .header-contents button{
+        padding: 2vw 4vw;
+       }
+     
+ }
