@@ -3,7 +3,7 @@
 
 .about-left{
 display: flex;
-/* flex-direction: row; */
+/* flex-direction: row; */ 
     align-items: start;
     /* gap: -1000px; */
 }
